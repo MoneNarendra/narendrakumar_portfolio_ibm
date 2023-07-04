@@ -10,6 +10,7 @@ body {
 }
 .banner-img {
   background-image: url(./Images_port/banner-img2.jpg);
+  background-color: black;
   height: 100vh;
   background-size: cover;
   position: relative;
