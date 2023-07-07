@@ -29,6 +29,11 @@ body {
 .nav-link:hover::after{
   opacity: 1;
 }
+.nav-bar-items {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
 .banner-img {
   background-image: url(./Images_port/banner-img2.jpg);
   background-color: black;
