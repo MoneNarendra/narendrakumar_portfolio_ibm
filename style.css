@@ -8,6 +8,27 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+.nav-link{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  position:  relative;
+}
+.nav-link::after{
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 3px;
+  width: 100%;
+  background-color: brown;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+.nav-link:hover::after{
+  opacity: 1;
+}
 .banner-img {
   background-image: url(./Images_port/banner-img2.jpg);
   background-color: black;
@@ -20,11 +41,7 @@ body {
   font-size: 30px;
   font-weight: bolder;
 }
-.nav-bar-items {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 600;
-}
+
 .bannerText {
   text-align: right;
   position: absolute;
